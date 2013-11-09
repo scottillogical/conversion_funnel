@@ -1,0 +1,2 @@
+class Step < OpenStruct
+end

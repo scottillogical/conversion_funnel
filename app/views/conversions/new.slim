@@ -1,0 +1,12 @@
+h1 Conversion#new
+p Find me in app/views/conversions/new.html.slim
+= stylesheet_link_tag("simple_test_experience")
+
+.conversion
+  = form_for(@conversion) do |form| 
+    input type="hidden" name="step" value="#{@form.current_step_number}"
+    - @form.current_step.questions.each do |question| 
+      .question id="#{question.type}
+        label #{question.label}
+        input type="text" name="answers[0][value]"
+    button type="submit" Submit

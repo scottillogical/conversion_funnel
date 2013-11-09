@@ -1,0 +1,11 @@
+Goals
+
+- experiences in one directory (css, html for all steps)
+- forms being stored in code, and in ruby
+- targeting
+- a/b testing
+- answer storage
+
+
+- possibly a backbone.js view structure
+
