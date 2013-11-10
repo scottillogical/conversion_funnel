@@ -1,7 +1,7 @@
 conversion_funnel
 =================
 
-Rails example app for hosting easily customizable landing pages to drive SEM at.
+Rails (example) app for hosting easily customizable landing pages to drive SEM at.
 
 # Goal/features
 
